@@ -3,8 +3,16 @@ body, html {
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: #7ADB47;
 }
-
+    
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
 
 
 .superBig {
