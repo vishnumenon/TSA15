@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #7ADB47;
+    background-color: #2ECC40;
 }
     
 h1{
@@ -12,6 +12,7 @@ h1{
     font-size: 50px;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 
@@ -34,6 +35,14 @@ svg {
 
 #box{
  font-size: 40px;
-border: black solid 2px;
+border: black solid 1px;
+    border-radius: 100px;
+    width: 65px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    height: 65px;
+    margin-left: 200px;
+    cursor: pointer;
 }
 
