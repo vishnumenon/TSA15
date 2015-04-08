@@ -23,5 +23,5 @@ var nodes =
     };
     
 
-var eWNaviMap = new NaviMap($("#eWasteNaviMap"), nodes, {color: "black", width: "1px", startNode: "1", imgW: 400, imgH: 400});
+var eWNaviMap = new NaviMap($("#eWasteNaviMap"), nodes, {color: "#0074D9", width: "1px", startNode: "1", imgW: 400, imgH: 400});
 
