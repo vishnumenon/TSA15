@@ -5,7 +5,7 @@ var nodes =
         "1": {
             ne: "2a",
             se: "2b",
-            img: "imgs/ILTQq.png"
+            img: "imgs/phone.png"
         },
         "2a": {
             w: "1",
