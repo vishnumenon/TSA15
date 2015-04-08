@@ -20,7 +20,7 @@ body, html, #tileGrid {
     font-weight: 300;
     font-size: 30pt;
     width: 20%;
-    background: #2ecc71;
+    background: #3498db;
     border: 1px;
     border-color: #ecf0f1;
     border-style: solid;
@@ -30,7 +30,7 @@ body, html, #tileGrid {
 }
     
 #tileGrid td:hover {
-   background: #27ae60; 
+   background: #2980b9; 
 }
 
 .akTile:hover {
