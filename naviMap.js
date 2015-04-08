@@ -82,7 +82,7 @@ NaviMap.prototype.drawNode = function(node) {
                 break;
         }
         nm.svg.line(cx, cy, ex, ey)
-            .stroke({ width: 100 })
+            .stroke({ width: nm.options.width })
             .style(
             {
                 cursor: 'pointer',
