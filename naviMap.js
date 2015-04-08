@@ -98,9 +98,12 @@ NaviMap.prototype.drawNode = function(node) {
     });
     
     this.svg.image(this.nodeset[node].img).loaded(function(loader) {
-        this.size(loader.width, loader.height);
-        this.x(cx - loader.width / 2);
-        this.y(cy - loader.height / 2);
+//        this.size(loader.width, loader.height);
+//        this.x(cx - loader.width / 2);
+//        this.y(cy - loader.height / 2);
+        this.size(nm.options.imgW, nm.options.imgH);
+        this.x(cx - nm.options.imgW / 2);
+        this.y(cy - nm.options.imgH / 2);
     });
     
 }
