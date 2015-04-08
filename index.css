@@ -32,3 +32,8 @@ svg {
     padding: 0;
 }
 
+#box{
+ font-size: 40px;
+border: black solid 2px;
+}
+
