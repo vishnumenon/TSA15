@@ -83,6 +83,7 @@ NaviMap.prototype.drawNode = function(node) {
         }
         nm.svg.line(cx, cy, ex, ey)
             .stroke({ width: nm.options.width })
+            .attr({"stroke-dasharray": "10, 5"})
             .style(
             {
                 cursor: 'pointer',
