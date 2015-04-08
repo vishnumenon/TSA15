@@ -86,8 +86,7 @@ NaviMap.prototype.drawNode = function(node) {
             .style(
             {
                 cursor: 'pointer',
-                stroke: nm.options.color,
-                markerEnd: "url(#triangle)"
+                stroke: nm.options.color
             })
             .click(function() {
                 nm.parent.fadeOut(function() {
