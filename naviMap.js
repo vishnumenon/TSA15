@@ -39,7 +39,7 @@ NaviMap.prototype.drawNode = function(node) {
     var nm = this;
     var w =  this.parent.width();
     var h = this.parent.height();
-    var cx = w / 2;
+    var cx = w / 4;
     var cy =  h / 2;
     $.each(this.nodeset[node], function(key, value) {
         var ex, ey;
@@ -86,7 +86,8 @@ NaviMap.prototype.drawNode = function(node) {
             .style(
             {
                 cursor: 'pointer',
-                stroke: nm.options.color
+                stroke: nm.options.color,
+                markerEnd: "url(#triangle)"
             })
             .click(function() {
                 nm.parent.fadeOut(function() {
