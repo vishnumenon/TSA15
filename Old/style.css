@@ -1,4 +1,4 @@
-body, html, .container {
+body, html, #tileGrid {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -7,49 +7,37 @@ body, html, .container {
     background-color: #ecf0f1;
 }
 
-.center {
-    text-align: center;
+#tileGrid {
+    border-spacing: 0;
 }
 
-#container {
-    overflow: hidden !important;
+#tileGrid tr {
+    height: 20%;
 }
 
-.tile {
+#tileGrid td {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 30pt;
-    width: 100px;
-    height: 100px;
+    width: 20%;
     background: #2ecc71;
+    border: 1px;
+    border-color: #ecf0f1;
+    border-style: solid;
     margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid;
+    padding: 20px;
+    //box-shadow: 2px 2px 1px #888888;
 }
-
-.dh {
-    height: 402px;
-}
-
-.dw {
-    width: 402px;
-}
-
-.th {
-    height: 604px;
-}
-
-.tw {
-    width: 604px;
-}
-
-
-.tile:hover {
+    
+#tileGrid td:hover {
    background: #27ae60; 
 }
 
 .akTile:hover {
     color: white !important;
     background: #9b59b6 !important; 
+}
+
+.center {
+    text-align: center;
 }
